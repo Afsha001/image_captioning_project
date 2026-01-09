@@ -65,7 +65,7 @@ BLEU-3: 0.2278
 
 BLEU-4: 0.1593
 
-# Interpretation:
+# Interpretation
 
 Good at recognizing single words
 
