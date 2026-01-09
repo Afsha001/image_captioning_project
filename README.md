@@ -1,7 +1,7 @@
 # image_captioning_project
 This project implements an Image Caption Generation system that automatically produces meaningful, human-like captions for images using a deep learning pipeline combining InceptionV3, LSTM, and an Attention mechanism.
 
-# 📂 Dataset Used
+#  Dataset Used
 
  Dataset: COCO 2017
 
@@ -13,14 +13,14 @@ Annotations: captions_val2017.json
 
 Purpose: Training + evaluating the caption-generation model
 
-# 🧠 Model Architecture
-🔹 1. Feature Extractor
+#  Model Architecture
+ 1. Feature Extractor
 
 InceptionV3 pretrained on ImageNet
 
 Converts each image into feature vectors
 
-🔹 2. Caption Generator
+ 2. Caption Generator
 
 Embedding Layer (256-dim)
 
@@ -30,7 +30,7 @@ Attention mechanism to focus on important regions
 
 Dense network for vocabulary prediction
 
-# ⚙️ Training Configuration
+#  Training Configuration
 
 Epochs: 20
 
@@ -44,8 +44,8 @@ Max Caption Length: 40 tokens
 
 Early Stopping: Triggered at Epoch 15
 
-📊 Model Performance
-📈 Final Metrics
+# Model Performance
+ Final Metrics
 
 Training Accuracy: 46.89%
 
@@ -55,7 +55,7 @@ Training Loss: 3.339
 
 Validation Loss: 4.2877
 
-# 🔵 BLEU Score Evaluation
+#  BLEU Score Evaluation
 
 BLEU-1: 0.5295
 
@@ -73,7 +73,7 @@ Moderate at short phrases
 
 Struggles with long, coherent sentence matches due to smaller dataset
 
-# 🖼️ Sample Predictions
+#  Sample Predictions
 
 The model can describe:
 
@@ -83,7 +83,7 @@ People and groups
 
 Simple outdoor/indoor scenes
 
-# 📌 Conclusion
+#  Conclusion
 
 This project successfully demonstrates a functional image captioning system using a CNN + LSTM + Attention pipeline. Performance is promising for a limited dataset and can be improved using:
 
